@@ -3074,7 +3074,7 @@
 				width: 2.25em;
 			}
 
-		#banner h2, p, span{
+		#banner h2, h4, span{
 			-moz-transition: opacity 0.4s ease, -moz-transform 0.4s ease, -moz-filter 0.25s ease;
 			-webkit-transition: opacity 0.4s ease, -webkit-transform 0.4s ease, -webkit-filter 0.25s ease;
 			-ms-transition: opacity 0.4s ease, -ms-transform 0.4s ease, -ms-filter 0.25s ease;
@@ -3100,14 +3100,14 @@
 			padding-bottom: 0.4em;
 		}
 
-		#banner p {
+		#banner h4 {
 			-moz-transition-delay: 0.8s;
 			-webkit-transition-delay: 0.8s;
 			-ms-transition-delay: 0.8s;
 			transition-delay: 0.8s;
 			font-family: Raleway, Helvetica, sans-serif;
 			font-size: 1em;
-			font-weight: 200;
+			/*font-weight: 200;*/
 			letter-spacing: 0.1em;
 			line-height: 2;
 			text-transform: uppercase;
@@ -3165,7 +3165,7 @@
 					font-size: 1.5em;
 				}
 
-				#banner p {
+				#banner h4 {
 					font-size: 0.8em;
 				}
 
@@ -3191,7 +3191,7 @@
 			filter: blur(2px);
 		}
 
-		body.is-loading #banner p {
+		body.is-loading #banner h4 {
 			opacity: 0;
 			-moz-transform: translateX(0.5em);
 			-webkit-transform: translateX(0.5em);
@@ -3672,6 +3672,11 @@
 				}
 
 				#footer .inner .contact {
+					width: 100%;
+					margin: 0 0 4em 0;
+				}
+
+				#footer .inner > #github-feed-container {
 					width: 100%;
 					margin: 0 0 4em 0;
 				}
