@@ -2386,7 +2386,7 @@
 
 			ul.contact li {
 				text-decoration: none;
-				margin: 2.0em 0 0 0;
+				margin: 1em 0 0 0;
 				padding: 0 0 0 3.25em;
 				position: relative;
 			}
@@ -3614,8 +3614,8 @@
 		#footer .inner .copyright {
 			border-top: solid 2px rgba(255, 255, 255, 0.125);
 			list-style: none;
-			margin: 4em 0 1em 0;
-			padding: 2em 0 0 0;
+			margin: 1em 0 1em 0;
+			padding: 1em 0 0 0;
 			width: 100%;
 		}
 
