@@ -3043,6 +3043,13 @@
 	#banner {
 		padding: 4em 0 4.75em 0 ;
 	}
+		#banner .banner-flex{
+			flex-direction: row;
+			display: flex;
+			align-items: center;
+			width: 55em;
+			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+		}
 
 		#banner .inner {
 			margin: 0 auto;
@@ -3094,7 +3101,7 @@
 			-webkit-transition-delay: 0.65s;
 			-ms-transition-delay: 0.65s;
 			transition-delay: 0.65s;
-			border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+			/* border-bottom: solid 2px rgba(255, 255, 255, 0.125); */
 			font-size: 1.5em;
 			margin-bottom: 0.8em;
 			padding-bottom: 0.4em;
@@ -3730,3 +3737,7 @@
 		}
 
 	}
+
+.profile_pic{
+	max-width: 35%;
+}
