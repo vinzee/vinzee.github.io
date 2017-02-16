@@ -3041,7 +3041,7 @@ body.is-menu-visible #menu {
 /* Banner */
 
 #banner {
-	padding: 4em 0 4.75em 0 ;
+	padding: 3em 0 4.75em 0 ;
 }
 	#banner .banner-flex{
 		flex-direction: row;
@@ -3117,8 +3117,8 @@ body.is-menu-visible #menu {
 		transition-delay: 0.65s;
 		/* border-bottom: solid 2px rgba(255, 255, 255, 0.125); */
 		font-size: 1.5em;
-		margin-bottom: 0.8em;
-		padding-bottom: 0.4em;
+		margin-bottom: 0.5em;
+		padding-bottom: 0.2em;
 	}
 
 	#banner h4 {
