@@ -3047,8 +3047,16 @@ body.is-menu-visible #menu {
 		flex-direction: row;
 		display: flex;
 		align-items: center;
-		width: 55em;
+		/*width: 55em;*/
 		border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+	}
+
+	#banner .banner-flex .name_container{
+		width: 55%;
+	}
+
+	#banner .banner-flex .profile_pic_container{
+		width: 45%;
 	}
 
 	#banner .inner {
@@ -3083,17 +3091,17 @@ body.is-menu-visible #menu {
 		margin: 0 0 1.3em 0;
 	}
 
-		#banner .logo .icon {
-			border-radius: 100%;
-			border: solid 2px rgba(255, 255, 255, 0.125);
-			cursor: default;
-			display: inline-block;
-			font-size: 2em;
-			height: 2.25em;
-			line-height: 2.25em;
-			text-align: center;
-			width: 2.25em;
-		}
+	#banner .logo .icon {
+		border-radius: 100%;
+		border: solid 2px rgba(255, 255, 255, 0.125);
+		cursor: default;
+		display: inline-block;
+		font-size: 2em;
+		height: 2.25em;
+		line-height: 2.25em;
+		text-align: center;
+		width: 2.25em;
+	}
 
 	#banner h2, h4, span{
 		-moz-transition: opacity 0.4s ease, -moz-transform 0.4s ease, -moz-filter 0.25s ease;
@@ -3174,22 +3182,30 @@ body.is-menu-visible #menu {
 			margin-bottom: -2.5em;
 		}
 
-			#banner .logo {
-				margin: 0 0 1em 0;
-			}
+		#banner .logo {
+			margin: 0 0 1em 0;
+		}
 
-				#banner .logo .icon {
-					font-size: 1.5em;
-				}
+		#banner .logo .icon {
+			font-size: 1.5em;
+		}
 
-			#banner h2 {
-				font-size: 1.5em;
-			}
+		#banner h2 {
+			font-size: 1.5em;
+		}
 
-			#banner h4 {
-				font-size: 0.8em;
-			}
+		#banner h4 {
+			font-size: 0.8em;
+		}
 
+/*		#banner .banner-flex .name_container{
+			width: 100%;
+		}
+
+		#banner .banner-flex .profile_pic_container{
+			width: 100%;
+		}
+*/
 	}
 
 	body.is-loading .profile_pic {
