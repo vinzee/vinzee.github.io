@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+CS GRADUATE STUDENT @ UNIVERSITY OF MARYLAND, BALTIMORE COUNTY
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Quick learner, Team builder, Mentor.
+Believe in learning something new and exciting everyday.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[vineeta1@umbc.edu](mailto:vineeta1@umbc.edu)

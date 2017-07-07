@@ -164,3 +164,10 @@
 	});
 
 })(jQuery);
+
+GitHubActivity.feed({
+    username: "vinzee",
+    // repository: "your-repo", // optional
+    selector: "#github-feed",
+    limit: 4 // optional
+});
