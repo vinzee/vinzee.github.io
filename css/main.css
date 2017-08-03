@@ -3843,3 +3843,7 @@ body.is-menu-visible #menu {
 .smaller{
 	font-size: 10px;
 }
+
+.fb-follow > span{
+	vertical-align: inherit !important;
+}

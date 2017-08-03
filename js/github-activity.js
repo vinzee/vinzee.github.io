@@ -251,6 +251,7 @@ var GitHubActivity = (function() {
 
     methods.getOutputFromRequest(userUrl, function(error, output) {
       if (error) {
+        $('#github-feed-container').hide();
         header = Mustache.render(templates.UserNotFound, { username: options.username });
       } else {
         header = methods.getHeaderHTML(output)
@@ -260,6 +261,7 @@ var GitHubActivity = (function() {
 
     methods.getOutputFromRequest(eventsUrl, function(error, output) {
       if (error) {
+        $('#github-feed-container').hide();
         activity = Mustache.render(templates.EventsNotFound, { username: options.username });
       } else {
         var limit = options.limit != 'undefined' ? parseInt(options.limit, 10) : null;

@@ -1,6 +1,7 @@
 ```ruby
 # Preview server
-$ gem install jekyll
+$ bundle install
+$ npm install
 $ jekyll serve
 
 # Now browse to http://localhost:4000
