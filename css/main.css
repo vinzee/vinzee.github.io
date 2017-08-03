@@ -3840,6 +3840,12 @@ body.is-menu-visible #menu {
   width: 120px;
 }
 
+.leetcode_icon{
+	height: auto;
+  width: 120px;
+  background-color: rgba(10,10,10,0.5);
+}
+
 .smaller{
 	font-size: 10px;
 }
