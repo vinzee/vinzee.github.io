@@ -1704,14 +1704,18 @@ a {
 	-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-	border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
 	color: #ffffff;
 	text-decoration: none;
+	border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
 }
+
+	a.no_border{
+		border-bottom: 0;
+	}
 
 	a:hover {
 		border-bottom-color: transparent;
-		color: #ffffff !important;
+		color: #ffffff;
 	}
 
 	a.special:not(.button) {
@@ -2780,6 +2784,10 @@ button,
 			padding: 0 0.2em;
 		}
 
+		#header nav .icon_links{
+			width: 32px;
+		}
+
 			#header nav a:before {
 				float: right;
 				margin-left: 0.75em;
@@ -3040,19 +3048,22 @@ body.is-menu-visible #menu {
 	padding: 3em 0 4.75em 0 ;
 }
 	#banner .banner-flex{
-		flex-direction: row;
-		display: flex;
-		align-items: center;
-		/*width: 55em;*/
-		border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+		// flex-direction: row;
+		// display: flex;
+		// align-items: center;
+		// width: 55em;
+		border-top: solid 2px rgba(255, 255, 255, 0.125);
+		padding-top: 10px;
 	}
 
-	#banner .banner-flex .name_container{
-		width: 55%;
+	#name_container{
+		width: 60%;
+		float: left;
 	}
 
-	#banner .banner-flex .profile_pic_container{
-		width: 45%;
+	#profile_pic_container{
+		width: 40%;
+		float: left;
 	}
 
 	#banner .inner {
@@ -3071,7 +3082,7 @@ body.is-menu-visible #menu {
 		transform: translateY(0);
 		opacity: 1;
 		margin: 0 0 1.3em 0;
-		max-width: 35%;
+		max-width: 150px;
 	}
 
 	#banner .logo {
@@ -3194,11 +3205,11 @@ body.is-menu-visible #menu {
 			font-size: 0.8em;
 		}
 
-/*		#banner .banner-flex .name_container{
+/*		#banner .banner-flex #name_container{
 			width: 100%;
 		}
 
-		#banner .banner-flex .profile_pic_container{
+		#banner .banner-flex #profile_pic_container{
 			width: 100%;
 		}
 */
@@ -3685,16 +3696,26 @@ body.is-menu-visible #menu {
 	max-width: 300px;
 }
 
-
 #headline_container{
-	float:left;
-	width:70%;
+	float: left;
+	width: 60%;
 }
 
 #wordcloud_container{
-	float:left;
-	width:30%;
+	float: left;
+	width: 40%;
 }
+
+.courses_left{
+ 	float: left;
+ 	width: 50%;
+}
+
+.courses_right{
+ 	float: left;
+}
+
+
 @media screen and (max-width: 1280px) {
 
 	#footer {
@@ -3749,18 +3770,21 @@ body.is-menu-visible #menu {
 		padding-top: 2.5em;
 	}
 
-		#footer .inner {
-			padding: 2em 2em 0.1em 2em ;
-		}
+	#footer .inner {
+		padding: 2em 2em 0.1em 2em ;
+	}
 
-			#footer .inner form {
-				margin: 0 0 3em 0;
-			}
+	#footer .inner form {
+		margin: 0 0 3em 0;
+	}
 
-			#footer .inner .contact {
-				margin: 0 0 3em 0;
-			}
+	#footer .inner .contact {
+		margin: 0 0 3em 0;
+	}
 
+	#headline_container, #wordcloud_container{
+		width:100%;
+	}
 }
 
 @media screen and (max-width: 640px) {
@@ -3776,10 +3800,7 @@ body.is-menu-visible #menu {
 		margin-top: 0;
 	}
 
-	#headline_container{
-		width:100%;
-	}
-	#wordcloud_container{
+	.courses_left, .courses_right{
 		width:100%;
 	}
 }
@@ -3789,9 +3810,36 @@ body.is-menu-visible #menu {
 	#footer .inner {
 		padding: 2em 1.5em 0.1em 1.5em ;
 	}
+
+	#name_container, #profile_pic_container{
+		width:100%;
+	}
+
+	.wordcloud{
+		width: 100%;
+	}
 }
 
 .read-more-link{
 	font-style: italic;
 	float: right;
+}
+
+.hackerrank_icon{
+	height: auto;
+  width: 45px;
+}
+
+.codewars_icon{
+	height: auto;
+	width: 120px
+}
+
+.techgig_icon{
+	height: auto;
+  width: 120px;
+}
+
+.smaller{
+	font-size: 10px;
 }
