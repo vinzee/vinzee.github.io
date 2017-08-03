@@ -2841,8 +2841,8 @@ button,
 			}
 
 				#header nav a {
-					height: inherit;
-					line-height: inherit;
+					/*height: inherit;*/
+					/*line-height: inherit;*/
 				}
 
 					#header nav a[href="#menu"] {
