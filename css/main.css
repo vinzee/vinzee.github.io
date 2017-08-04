@@ -3853,3 +3853,6 @@ body.is-menu-visible #menu {
 .fb-follow > span{
 	vertical-align: inherit !important;
 }
+
+#social-buttons-container {
+	margin-bottom: 15px;
