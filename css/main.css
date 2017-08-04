@@ -1700,10 +1700,10 @@ body, input, select, textarea {
 	}
 
 a {
-	-moz-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-	-webkit-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-	-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-	transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+	-moz-transition: color 0.05s ease-in-out, border-bottom-color 0.05s ease-in-out;
+	-webkit-transition: color 0.05s ease-in-out, border-bottom-color 0.05s ease-in-out;
+	-ms-transition: color 0.05s ease-in-out, border-bottom-color 0.05s ease-in-out;
+	transition: color 0.05s ease-in-out, border-bottom-color 0.05s ease-in-out;
 	color: #ffffff;
 	text-decoration: none;
 	border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
@@ -1740,10 +1740,10 @@ a {
 		}
 
 		a.special:not(.button):before {
-			-moz-transition: background-color 0.2s ease-in-out;
-			-webkit-transition: background-color 0.2s ease-in-out;
-			-ms-transition: background-color 0.2s ease-in-out;
-			transition: background-color 0.2s ease-in-out;
+			-moz-transition: background-color 0.05s ease-in-out;
+			-webkit-transition: background-color 0.05s ease-in-out;
+			-ms-transition: background-color 0.05s ease-in-out;
+			transition: background-color 0.05s ease-in-out;
 			border-radius: 100%;
 			border: solid 2px rgba(255, 255, 255, 0.125);
 			content: '\f105';
@@ -2519,10 +2519,10 @@ button,
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
-	-moz-transition: background-color 0.2s ease-in-out;
-	-webkit-transition: background-color 0.2s ease-in-out;
-	-ms-transition: background-color 0.2s ease-in-out;
-	transition: background-color 0.2s ease-in-out;
+	-moz-transition: background-color 0.05s ease-in-out;
+	-webkit-transition: background-color 0.05s ease-in-out;
+	-ms-transition: background-color 0.05s ease-in-out;
+	transition: background-color 0.05s ease-in-out;
 	background-color: transparent;
 	border-radius: 5px;
 	border: 0;
@@ -2734,10 +2734,10 @@ button,
 /* Header */
 
 #header {
-	-moz-transition: background-color 0.2s ease-in-out;
-	-webkit-transition: background-color 0.2s ease-in-out;
-	-ms-transition: background-color 0.2s ease-in-out;
-	transition: background-color 0.2s ease-in-out;
+	-moz-transition: background-color 0.05s ease-in-out;
+	-webkit-transition: background-color 0.05s ease-in-out;
+	-ms-transition: background-color 0.05s ease-in-out;
+	transition: background-color 0.05s ease-in-out;
 	background-color: rgba(53, 56, 73, 0.95);
 	height: 3.5em;
 	left: 0;
@@ -2750,10 +2750,10 @@ button,
 }
 
 	#header h1 {
-		-moz-transition: opacity 0.2s ease-in-out, visibility 0.2s;
-		-webkit-transition: opacity 0.2s ease-in-out, visibility 0.2s;
-		-ms-transition: opacity 0.2s ease-in-out, visibility 0.2s;
-		transition: opacity 0.2s ease-in-out, visibility 0.2s;
+		-moz-transition: opacity 0.05s ease-in-out, visibility 0.05s;
+		-webkit-transition: opacity 0.05s ease-in-out, visibility 0.05s;
+		-ms-transition: opacity 0.05s ease-in-out, visibility 0.05s;
+		transition: opacity 0.05s ease-in-out, visibility 0.05s;
 		border-bottom: 0;
 		font-size: 0.8em;
 		margin-bottom: 0;
@@ -2795,10 +2795,10 @@ button,
 
 			#header nav a[href="#menu"] {
 				text-decoration: none;
-				-moz-transition: background-color 0.2s ease-in-out;
-				-webkit-transition: background-color 0.2s ease-in-out;
-				-ms-transition: background-color 0.2s ease-in-out;
-				transition: background-color 0.2s ease-in-out;
+				-moz-transition: background-color 0.05s ease-in-out;
+				-webkit-transition: background-color 0.05s ease-in-out;
+				-ms-transition: background-color 0.05s ease-in-out;
+				transition: background-color 0.05s ease-in-out;
 				border-radius: 5px;
 				box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
 				padding: 0 1.35em;
@@ -3843,7 +3843,10 @@ body.is-menu-visible #menu {
 .leetcode_icon{
 	height: auto;
   width: 120px;
-  background-color: rgba(10,10,10,0.5);
+  background-color: #000;
+	border-radius: 10px;
+	border: solid 2px rgba(255, 255, 255, 0.125);
+
 }
 
 .smaller{
