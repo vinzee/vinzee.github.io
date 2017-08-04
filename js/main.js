@@ -63,7 +63,7 @@
 			  hitType: 'event',
 			  eventCategory: 'Story',
 			  eventAction: name,
-			  eventLabel: name + 'Story'
+			  eventLabel: name + '-story'
 			});
 			window.location.hash = name;
 		}
