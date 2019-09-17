@@ -3048,10 +3048,10 @@ body.is-menu-visible #menu {
 	padding: 3em 0 4.75em 0 ;
 }
 	#banner .banner-flex{
-		// flex-direction: row;
-		// display: flex;
-		// align-items: center;
-		// width: 55em;
+		/* flex-direction: row;
+		display: flex;
+		align-items: center;
+		width: 55em; */
 		border-top: solid 2px rgba(255, 255, 255, 0.125);
 		padding-top: 10px;
 	}
@@ -3059,6 +3059,11 @@ body.is-menu-visible #menu {
 	#name_container{
 		width: 60%;
 		float: left;
+	}
+
+	#name_container .icon_links{
+		margin: 8px;
+		border-bottom: none;
 	}
 
 	#profile_pic_container{
@@ -3190,10 +3195,6 @@ body.is-menu-visible #menu {
 
 		#banner .inner {
 			width: 100%;
-		}
-
-		#headline_container, #wordcloud_container{
-			width:100% !important;
 		}
 
 	}
