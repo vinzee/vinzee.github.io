@@ -3063,6 +3063,8 @@ body.is-menu-visible #menu {
 
 	#name_container .icon_links{
 		margin: 8px;
+		margin-bottom: 0.5em;
+		padding-bottom: 0.2em;
 		border-bottom: none;
 	}
 
@@ -3861,9 +3863,6 @@ body.is-menu-visible #menu {
 	font-size: 10px;
 }
 
-.fb-follow > span{
-	vertical-align: inherit !important;
+.competitive_programming > a {
+	margin: 8px;
 }
-
-#social-buttons-container {
-	margin-bottom: 15px;
